@@ -37,7 +37,7 @@ public struct SwiftDownEditor: UIViewRepresentable {
       swiftDown.delegate = context.coordinator
       swiftDown.text = text
       swiftDown.isEditable = true
-      swiftDown.isScrollEnabled = true
+      swiftDown.isScrollEnabled = false
       swiftDown.keyboardType = keyboardType
       swiftDown.autocapitalizationType = autocapitalizationType
       swiftDown.autocorrectionType = autocorrectionType
